@@ -1,0 +1,4 @@
+data/*.json
+.playwright-mcp/
+.DS_Store
+Thumbs.db
