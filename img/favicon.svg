@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <defs>
+        <mask id="m">
+            <rect width="48" height="48" fill="#fff"/>
+            <rect y="22" width="48" height="1.8" fill="#000"/>
+            <rect y="27" width="48" height="2.6" fill="#000"/>
+            <rect y="32.4" width="48" height="3.4" fill="#000"/>
+        </mask>
+    </defs>
+    <path d="M6 38a18 18 0 0 1 36 0z" fill="#c8553d" mask="url(#m)"/>
+    <rect x="2" y="40" width="44" height="2.4" rx="1.2" fill="#2b1a12"/>
+</svg>
