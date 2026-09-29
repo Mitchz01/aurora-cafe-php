@@ -9,17 +9,6 @@ Práctica de PHP para la materia de desarrollo web. La idea era armar un sitio c
 - **Bolsa de pedido**: agregas productos, cambias cantidades y se guarda en el navegador aunque recargues.
 - **Reservaciones**: el formulario se valida en PHP (correo, fecha futura, hora dentro del horario, número de personas) y las reservas se guardan en un archivo JSON.
 
-## Cómo correrlo
-
-Necesitas PHP 8 o XAMPP.
-
-```bash
-php -S localhost:8000
-```
-
-Y abres http://localhost:8000
-
-Con XAMPP, copia la carpeta a `htdocs` y entra a `http://localhost/aurora-cafe-php/`.
 
 ## Estructura
 
@@ -30,9 +19,3 @@ js/         bolsa, filtros y detalles de la interfaz
 img/        fotos y favicon
 data/       aquí se guardan las reservas
 ```
-
-## Lo que aprendí
-
-Separar el header y el footer con `include` me ahorró repetir código en cada página, y validar el formulario del lado del servidor fue lo más interesante: el navegador puede validar, pero el que decide al final es PHP.
-
-Las fotos son de [Pexels](https://www.pexels.com). La cafetería no existe (ojalá).
